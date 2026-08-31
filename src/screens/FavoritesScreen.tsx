@@ -4,20 +4,18 @@ import type { CompositeScreenProps } from '@react-navigation/native';
 import type { BottomTabScreenProps } from '@react-navigation/bottom-tabs';
 import { ScreenContainer } from '../components/ScreenContainer';
 import { GamesListView } from '../components/GamesListView';
-import { NetworkModeControl } from '../components/NetworkModeControl';
 import type { RootStackParamList, TabParamList } from '../navigation/types';
 
 type Props = CompositeScreenProps<
-  BottomTabScreenProps<TabParamList, 'Games'>,
+  BottomTabScreenProps<TabParamList, 'Favorites'>,
   NativeStackScreenProps<RootStackParamList>
 >;
 
-export const GamesListScreen = ({ navigation }: Props) => (
-  <ScreenContainer
-    title="Games"
-    subtitle="Scheduled, live and final matchups"
-    headerAction={<NetworkModeControl />}
-  >
-    <GamesListView onSelectGame={(gameId) => navigation.navigate('MatchupDetails', { gameId })} />
+export const FavoritesScreen = ({ navigation }: Props) => (
+  <ScreenContainer title="Favorites" subtitle="Saved on this device">
+    <GamesListView
+      favoritesOnly
+      onSelectGame={(gameId) => navigation.navigate('MatchupDetails', { gameId })}
+    />
   </ScreenContainer>
 );

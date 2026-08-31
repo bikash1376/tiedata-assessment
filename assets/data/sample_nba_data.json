@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "version": "1.0",
+    "generatedAt": "2026-08-28T00:00:00Z",
+    "synthetic": true,
+    "description": "Synthetic NBA-style data created only for the TIE DATA mobile technical assessment."
+  },
+  "games": [
+    {
+      "id": "nba-sample-001",
+      "scheduledAt": "2026-10-20T23:30:00Z",
+      "status": "scheduled",
+      "venue": "Sample Arena A",
+      "homeTeam": {
+        "id": "lal",
+        "name": "Los Angeles Lakers",
+        "abbreviation": "LAL",
+        "record": {
+          "wins": 48,
+          "losses": 34
+        },
+        "metrics": {
+          "offensiveRating": 116.8,
+          "defensiveRating": 114.2,
+          "pace": 99.7
+        },
+        "keyPlayers": [
+          {
+            "id": "lal-p1",
+            "name": "Sample Player L1",
+            "position": "F",
+            "pointsPerGame": 25.4,
+            "reboundsPerGame": 7.8,
+            "assistsPerGame": 8.1,
+            "fieldGoalPercentage": 52.1,
+            "threePointPercentage": 38.4
+          },
+          {
+            "id": "lal-p2",
+            "name": "Sample Player L2",
+            "position": "C",
+            "pointsPerGame": 23.1,
+            "reboundsPerGame": 11.2,
+            "assistsPerGame": 3.4,
+            "fieldGoalPercentage": 55.7,
+            "threePointPercentage": 31.6
+          }
+        ]
+      },
+      "awayTeam": {
+        "id": "gsw",
+        "name": "Golden State Warriors",
+        "abbreviation": "GSW",
+        "record": {
+          "wins": 46,
+          "losses": 36
+        },
+        "metrics": {
+          "offensiveRating": 117.4,
+          "defensiveRating": 115.1,
+          "pace": 101.3
+        },
+        "keyPlayers": [
+          {
+            "id": "gsw-p1",
+            "name": "Sample Player G1",
+            "position": "G",
+            "pointsPerGame": 27.6,
+            "reboundsPerGame": 4.5,
+            "assistsPerGame": 6.3,
+            "fieldGoalPercentage": 47.9,
+            "threePointPercentage": 41.2
+          },
+          {
+            "id": "gsw-p2",
+            "name": "Sample Player G2",
+            "position": "F",
+            "pointsPerGame": 18.8,
+            "reboundsPerGame": 8.7,
+            "assistsPerGame": 5.9,
+            "fieldGoalPercentage": 49.6,
+            "threePointPercentage": 36.8
+          }
+        ]
+      }
+    },
+    {
+      "id": "nba-sample-002",
+      "scheduledAt": "2026-10-21T00:00:00Z",
+      "status": "live",
+      "period": 3,
+      "clock": "04:18",
+      "venue": "Sample Arena B",
+      "homeScore": 78,
+      "awayScore": 74,
+      "homeTeam": {
+        "id": "bos",
+        "name": "Boston Celtics",
+        "abbreviation": "BOS",
+        "record": {
+          "wins": 61,
+          "losses": 21
+        },
+        "metrics": {
+          "offensiveRating": 121.2,
+          "defensiveRating": 110.4,
+          "pace": 98.6
+        },
+        "keyPlayers": [
+          {
+            "id": "bos-p1",
+            "name": "Sample Player B1",
+            "position": "F",
+            "pointsPerGame": 28.2,
+            "reboundsPerGame": 8.3,
+            "assistsPerGame": 4.9,
+            "fieldGoalPercentage": 48.8,
+            "threePointPercentage": 39.1
+          }
+        ]
+      },
+      "awayTeam": {
+        "id": "nyk",
+        "name": "New York Knicks",
+        "abbreviation": "NYK",
+        "record": {
+          "wins": 52,
+          "losses": 30
+        },
+        "metrics": {
+          "offensiveRating": 118.5,
+          "defensiveRating": 112.8,
+          "pace": 96.9
+        },
+        "keyPlayers": [
+          {
+            "id": "nyk-p1",
+            "name": "Sample Player N1",
+            "position": "G",
+            "pointsPerGame": 26.7,
+            "reboundsPerGame": 3.9,
+            "assistsPerGame": 7.4,
+            "fieldGoalPercentage": 46.7,
+            "threePointPercentage": 37.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "nba-sample-003",
+      "scheduledAt": "2026-10-19T23:00:00Z",
+      "status": "final",
+      "venue": "Sample Arena C",
+      "homeScore": 109,
+      "awayScore": 113,
+      "homeTeam": {
+        "id": "mia",
+        "name": "Miami Heat",
+        "abbreviation": "MIA",
+        "record": {
+          "wins": 44,
+          "losses": 38
+        },
+        "metrics": {
+          "offensiveRating": 113.9,
+          "defensiveRating": 112.6,
+          "pace": 95.8
+        },
+        "keyPlayers": [
+          {
+            "id": "mia-p1",
+            "name": "Sample Player M1",
+            "position": "F",
+            "pointsPerGame": 22.9,
+            "reboundsPerGame": 6.4,
+            "assistsPerGame": 5.5,
+            "fieldGoalPercentage": 49.3,
+            "threePointPercentage": 34.9
+          }
+        ]
+      },
+      "awayTeam": {
+        "id": "mil",
+        "name": "Milwaukee Bucks",
+        "abbreviation": "MIL",
+        "record": {
+          "wins": 50,
+          "losses": 32
+        },
+        "metrics": {
+          "offensiveRating": 119.1,
+          "defensiveRating": 114.7,
+          "pace": 100.2
+        },
+        "keyPlayers": [
+          {
+            "id": "mil-p1",
+            "name": "Sample Player W1",
+            "position": "F",
+            "pointsPerGame": 30.3,
+            "reboundsPerGame": 11.5,
+            "assistsPerGame": 6.2,
+            "fieldGoalPercentage": 58.1,
+            "threePointPercentage": 32.7
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
 import { GamesListScreen } from '../screens/GamesListScreen';
+import { MatchupDetailsScreen } from '../screens/MatchupDetailsScreen';
 import { useTheme } from '../theme/ThemeProvider';
 import type { RootStackParamList, TabParamList } from './types';
 
@@ -68,6 +69,7 @@ export const RootNavigator = () => {
         }}
       >
         <Stack.Screen name="Tabs" component={TabNavigator} />
+        <Stack.Screen name="MatchupDetails" component={MatchupDetailsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
